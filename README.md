@@ -2,19 +2,22 @@
 
 &nbsp;
 
-## Setting Up a Dev Environment
+## Functions
 
-I installed on my mac,
+What is a Function?
 
-- iTerm2, a better terminal
-- Homebrew
-- Node. NPM, node package manager
-- oh-my-zsh
-- VS Code. Visual Studio Code is a source-code editor.
+A function is a subprogram designed to perform a particular task.
+Functions are executed when they are called. This is known as invoking a function.
+Values can be passed into functions and used within the function.
+Functions always return a value. In JavaScript, if no return value is specified, the function will return undefined.
+Functions are objects.
+Define a Function.
+There are a few different ways to define a function in JavaScript:
+A Function Declaration defines a named function. To create a function declaration you use the function keyword followed by the name of the function. When using function declarations, the function definition is hoisted, thus allowing the function to be used before it is defined.
 
 &nbsp;
 
-## Git
+## Return Values
 
 1. git clone
 2. git add
@@ -25,7 +28,7 @@ I used these commands to fork/clone repositories. Which then allows me to edit/m
 
 &nbsp;
 
-## Into To JavaScript
+## Parameters
 
 JavaScript, often abbreviated as JS, is a high-level, interpreted scripting language that conforms to the ECMAScript specification.
 
