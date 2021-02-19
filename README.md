@@ -75,7 +75,7 @@ const age = 2.5
 
 &nbsp;
 
-## Variable Re-Assignment & String Concatenation.
+## Testing with Quokka & Jest 
 
 Practiced learning about code logic & how declaring variables with the let keyword can be changed with different values.
 
