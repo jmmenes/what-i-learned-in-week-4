@@ -42,7 +42,7 @@ How to link internal JS with HTML
 
 &nbsp;
 
-## Variables
+## Booleans
 
 JavaScript variables are containers for storing data values. Creating a variable in JavaScript is called "declaring" a variable. You declare a JavaScript variable with the keywords, 'let' or 'const'
 
@@ -57,7 +57,7 @@ JS primitive data types
 
 &nbsp;
 
-## Strings & Numbers
+## && || if else
 
 Strings are written with quotes. You can use single or double quotes:
 
