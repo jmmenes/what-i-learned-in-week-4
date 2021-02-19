@@ -1,5 +1,10 @@
 # What I Learned In Week 4 At Code Immersives
 
+- Intro to Functions
+- Functional Returns!
+- Function Parameters
+- Booleans & If/Else
+
 &nbsp;
 
 ## Functions
