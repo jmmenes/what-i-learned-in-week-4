@@ -1,10 +1,5 @@
 # What I Learned In Week 4 At Code Immersives
 
-- Intro to Functions
-- Functional Returns!
-- Function Parameters
-- Booleans & If/Else
-
 &nbsp;
 
 ## Functions
@@ -12,44 +7,55 @@
 What is a Function?
 
 A function is a subprogram designed to perform a particular task.
-Functions are executed when they are called. This is known as invoking a function.
-Values can be passed into functions and used within the function.
+
+Functions are executed when they are called. This is known as invoking a function. Values can be passed into functions and used within the function.
+
 Functions always return a value. In JavaScript, if no return value is specified, the function will return undefined.
-Functions are objects.
-Define a Function.
-There are a few different ways to define a function in JavaScript:
-A Function Declaration defines a named function. To create a function declaration you use the function keyword followed by the name of the function. When using function declarations, the function definition is hoisted, thus allowing the function to be used before it is defined.
 
-&nbsp;
-
-## Return Values
-
-1. git clone
-2. git add
-3. git commit -m
-4. git push
-
-I used these commands to fork/clone repositories. Which then allows me to edit/make changes to files. After the changes are made I will make a commit to highlight what changes were made. The last step is to push the commit back to the source on GitHub.
+    function nameOfFunction(parameter) {
+    // code to be executed
+    }
 
 &nbsp;
 
 ## Parameters
 
-JavaScript, often abbreviated as JS, is a high-level, interpreted scripting language that conforms to the ECMAScript specification.
+Function parameters are the names listed in the function definition.
 
-How to link external JS to HTML
+Function arguments are the real values passed to (and received by) the function.
 
-    <script src="script.js"></script>
+    function  nameOfFunction(parameter1, parameter2) {
+     // code to be executed
+    }
 
-How to link internal JS with HTML
+&nbsp;
 
-    <script> JS Code </script>
+## Return Values
+
+Every function in JavaScript returns undefined unless otherwise specified.
+
+When JavaScript reaches a return statement, the function will stop running.
+
+    str = "John";
+
+    function logMyFirstName(str) {
+    console.log(str);
+    }
+
+    // Will log "John" to the console
+
+&nbsp;
+
+    function test(){
+    return true;
+    }
+
+    test();
+    // true
 
 &nbsp;
 
 ## Booleans
-
-JavaScript variables are containers for storing data values. Creating a variable in JavaScript is called "declaring" a variable. You declare a JavaScript variable with the keywords, 'let' or 'const'
 
 JS primitive data types
 
@@ -60,32 +66,49 @@ JS primitive data types
 5. Null = The value null represents the intentional absence of any object value. It is one of JavaScript's primitive values and is treated as falsy for boolean operations.
 6. Undefined = The undefined property indicates that a variable has not been assigned a value, or not declared at all.
 
-&nbsp;
+A JavaScript Boolean represents one of two values: true or false.
 
-## && || if else
+Very often, in programming, you will need a data type that can only have one of two values, like
 
-Strings are written with quotes. You can use single or double quotes:
+- YES / NO
+- ON / OFF
+- TRUE / FALSE
 
-let name = ‘Hello World’
-
-const name = “Hello World”
-
-&nbsp;
-
-Numbers can be written with, or without decimals
-
-let age = 2
-
-const age = 2.5
+For this, JavaScript has a Boolean data type. It can only take the values true or false.
 
 &nbsp;
 
-## Testing with Quokka & Jest 
+## &&, ||(or), if, else
 
-Practiced learning about code logic & how declaring variables with the let keyword can be changed with different values.
+Conditional Statements
 
-To concatenate a string, you add a plus sign + between the strings or string variables you want to connect.
+Very often when you write code, you want to perform different actions for different decisions.
 
-    let myPet = 'seahorse';
-    console.log('My favorite animal is the ' + myPet + '.');
-    // My favorite animal is the seahorse.
+You can use conditional statements in your code to do this.
+
+In JavaScript we have the following conditional statements:
+
+- Use if to specify a block of code to be executed, if a specified condition is true
+- Use else to specify a block of code to be executed, if the same condition is false
+- Use else if to specify a new condition to test, if the first condition is false
+
+      function nameOfFunction(parameter) {
+      if (condition) {
+      // block of code to be executed if the condition is true
+      } else {
+      // block of code to be executed if the condition is false
+      }
+
+&nbsp;
+
+## Testing With Quokka & Jest
+
+Quokka.js is a rapid prototyping playground in your editor, with access to your project’s files, inline reporting, code coverage and rich output formatting. Runtime values are updated and displayed in your IDE next to your code, as you type
+
+[quokka](https://quokkajs.com/)
+
+&nbsp;
+
+Jest is a delightful JavaScript Testing Framework with a focus on simplicity. It works with projects using: Babel, TypeScript, Node, React, Angular, Vue and more!
+
+[jest](https://jestjs.io/)
